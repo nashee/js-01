@@ -1,5 +1,7 @@
 // Code goes here
 
-import { hello } from './math.js';
+import { printList, hello } from './math.js';
+//import {hello}  from './math.js' ;
 
- hello();
+hello();
+ printList();

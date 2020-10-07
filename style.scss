@@ -23,6 +23,12 @@
             height: 100%;
             border: solid black 1px;
             float: left;
+            .left-side ul  {
+                list-style: none;
+                text-transform: capitalize;
+                line-height: 1.5;
+                color: brown;
+            }
         }
         section {
             width: 63%;
