@@ -32,6 +32,10 @@
       height: 100%;
       border: solid black 1px;
       float: right; }
+      .wrapper main section .add-div {
+        width: 100%;
+        height: 100%;
+        background-color: lightgreen; }
   .wrapper footer {
     width: 100%;
     height: 30px;
