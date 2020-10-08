@@ -23,13 +23,22 @@ export function showAdd(){
   menuLeft[0].addEventListener("click",function(){
     const addDiv = document.createElement("div");
     sections.appendChild(addDiv);
-    addDiv.classList.add('add-div'); 
-    console.log(addDiv);
+    addDiv.classList.add('add-div');
+    const inputDiv = document.createElement("div");
+    inputDiv.className = "input-div";
+     
+    const inputOne = document.createElement("input");
+     inputOne.type = "text";
+     inputOne.className = "input-one";
+     inputOne.label = "A: "
+     addDiv.appendChild(inputOne);
+
   })
 }
 
 
 // for testing variables
 export function hello() {
-   //console.log(sections);  
+  //console.log(inputOne);
+  //console.log(sections);  
 }
